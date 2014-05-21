@@ -21,6 +21,7 @@
 		14CFCC7C192D2E41009A629A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CFCC5E192D2E40009A629A /* UIKit.framework */; };
 		14CFCC84192D2E41009A629A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14CFCC82192D2E41009A629A /* InfoPlist.strings */; };
 		14CFCC86192D2E41009A629A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CFCC85192D2E41009A629A /* Git_TestTests.m */; };
+		14CFCC91192D3F5A009A629A /* SHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CFCC90192D3F5A009A629A /* SHTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		14CFCC81192D2E41009A629A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		14CFCC83192D2E41009A629A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14CFCC85192D2E41009A629A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		14CFCC8F192D3F5A009A629A /* SHTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTests.h; sourceTree = "<group>"; };
+		14CFCC90192D3F5A009A629A /* SHTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		14CFCC4E192D2E40009A629A = {
 			isa = PBXGroup;
 			children = (
+				14CFCC8F192D3F5A009A629A /* SHTests.h */,
+				14CFCC90192D3F5A009A629A /* SHTests.m */,
 				14CFCC60192D2E40009A629A /* Git Test */,
 				14CFCC7F192D2E41009A629A /* Git TestTests */,
 				14CFCC59192D2E40009A629A /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				14CFCC67192D2E41009A629A /* main.m in Sources */,
 				14CFCC71192D2E41009A629A /* SHViewController.m in Sources */,
+				14CFCC91192D3F5A009A629A /* SHTests.m in Sources */,
 				14CFCC6B192D2E41009A629A /* SHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
